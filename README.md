@@ -6,7 +6,7 @@
 
 # completed / to be completed
 
-- [x] carousel
-- [x] cookie_consent_bad_version
-- [ ] color_scheme_generator
-- [x] meme_picker
+- [x] carousel :heavy_check_mark:
+- [x] cookie_consent_bad_version :heavy_check_mark:
+- [ ] color_scheme_generator :arrow_up:
+- [x] meme_picker :heavy_check_mark:
