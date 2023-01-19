@@ -9,3 +9,4 @@
 - [x] carousel
 - [x] cookie_consent_bad_version
 - [ ] color_scheme_generator
+- [x] meme_picker
