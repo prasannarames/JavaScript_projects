@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  background: #1b244a;
+}
+
+@font-face {
+  src: url("./assets/CursedTimerUlil-Aznm.ttf");
+  font-family: cursedTimer;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+h3 {
+  width: 149px;
+  height: 36px;
+  left: 85px;
+  top: 68px;
+
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+
+  text-align: center;
+
+  color: #eeeeee;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.score {
+  width: 155px;
+  height: 120px;
+  left: 82px;
+  top: 125px;
+  border: 2px solid red;
+  width: 117px;
+  height: 120px;
+  left: 100px;
+  top: 125px;
+
+  font-family: "cursedTimer";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  /* or 141% */
+
+  text-align: center;
+
+  color: #f94f6d;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.btn-container > button {
+  font-family: "cursedTimer";
+  color: #9aabd8;
+  background: #1b244a;
+  border: 2px solid #9aabd8;
+}
+.btn-container > button:hover {
+  background: white;
+  color: #f94f6d;
+}
