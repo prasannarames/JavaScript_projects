@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <form id="form-container">
+        <label for="name">Name</label><br />
+        <input type="text" id="name" placeholder="Enter you name" /><br />
+
+        <label for="email">Email</label><br />
+        <input type="text" id="email" placeholder="Enter your email" /><br />
+
+        <label for="gender">Gender</label><br />
+        <select name="gender" id="gender">
+          <option value="select your gender">Select your gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">other</option> </select
+        ><br />
+
+        <label for="course">Course</label><br />
+        <select name="course" id="course">
+          <option value="select the course you opt for"></option>
+          <option value="frontend">frontend</option>
+          <option value="backend">backend</option>
+          <option value="devops">devops</option> </select
+        ><br />
+        <br />
+
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+    <!-- <script>
+      function runSubmit(e) {
+        console.log(e);
+        e.preventDefault();
+      }
+    </script> -->
+    <script src="./index.js"></script>
+  </body>
+</html>
